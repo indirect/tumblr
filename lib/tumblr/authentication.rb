@@ -5,7 +5,7 @@ require 'weary/middleware'
 module Tumblr
   # http://www.tumblr.com/oauth/apps
   class Authentication < Sinatra::Base
-    HOST = "http://www.tumblr.com/oauth"
+    HOST = "https://www.tumblr.com/oauth"
 
     enable :sessions
     set :credential_path, nil
